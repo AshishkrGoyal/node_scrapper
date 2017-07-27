@@ -1,0 +1,540 @@
+Ask HN: What books had the greatest effect on how you structure your code?
+item?id=14841939
+
+Creating a Z-Wave Smart Home hub using a Raspberry Pi
+http://raspberrypihq.com/how-to-create-a-z-wave-smart-home-hub-using-a-raspberry-pi/
+
+Headbadge Hunter: Rescuing the Beautiful Branding of Long Lost Bicycles
+http://www.collectorsweekly.com/articles/headbadge-hunter/
+
+Facebook, Alphabet, Amazon, and Netflix called to testify on net neutrality
+https://arstechnica.com/tech-policy/2017/07/facebook-alphabet-amazon-and-netflix-called-to-testify-on-net-neutrality/
+
+Winning arguments with data
+https://medium.com/@hoffa/winning-arguments-with-data-leading-with-commas-in-sql-672b3b81eac9
+
+Ask HN: Would passing certification exams boost my resume?
+item?id=14856720
+
+The Next Generation of Web Gaming
+https://hacks.mozilla.org/2017/07/the-next-generation-of-web-gaming/
+
+Largest Bitcoin mixer, Bitmixer.io, closes down
+https://bitcointalk.org/index.php?topic=2042470.0
+
+How Microsoft brought SQL Server to Linux
+https://techcrunch.com/2017/07/17/how-microsoft-brought-sql-server-to-linux/
+
+VPN crackdown ‘unthinkable’ trial by firewall for China’s research world
+http://www.scmp.com/news/china/policies-politics/article/2103793/vpn-crackdown-unthinkable-trial-firewall-chinas
+
+Animation of the Cubic of Stationary Curvature of a Fourbar Linkage
+http://s.goessner.net/#eulersavary
+
+How to use Let's Encypt with Google Cloud Platform
+https://medium.com/google-cloud/lets-encrypt-and-google-app-engine-in-2017-7cfe0928768e
+
+Most open-source software is libraries or frameworks
+https://medium.com/@aserg.ufmg/most-popular-application-domains-on-github-4af418b77a5e
+
+The Emerging Science of Computational Psychiatry
+https://www.technologyreview.com/s/608322/the-emerging-science-of-computational-psychiatry/
+
+Show HN: A tool for turning facts into structured data with simple parsers
+https://github.com/fiatjaf/pf
+
+A video game you've never heard of has turned three teens into multimillionaires
+http://www.businessinsider.com/roblox-how-teenage-developers-are-making-millions-2017-7
+
+The Odin Project – Learn Web Development for Free
+https://www.theodinproject.com
+
+Redis on Acid: 0.5M ops/sec, 1ms latency and ACID compliance
+https://redislabs.com/blog/your-cloud-cant-do-that-0-5m-ops-acid-1msec-latency/
+
+Britain to ban sale of all diesel and petrol cars and vans from 2040
+https://www.theguardian.com/politics/2017/jul/25/britain-to-ban-sale-of-all-diesel-and-petrol-cars-and-vans-from-2040
+
+Ask HN: Is Rust too complex for mere mortals?
+item?id=14855870
+
+MAME devs are cracking open arcade chips to get around DRM
+https://arstechnica.com/gaming/2017/07/mame-devs-are-cracking-open-arcade-chips-to-get-around-drm/
+
+Pittsburgh Gets a Tech Makeover
+https://www.nytimes.com/2017/07/22/style/pittsburgh-tech-makeover.html
+
+NAFTA: U.S. proposal for cross-border data storage at odds with B.C., N.S. law
+http://www.cbc.ca/news/politics/nafta-data-storage-privacy-1.4220272
+
+MIT's Pathway to Fusion Energy [video]
+https://www.youtube.com/watch?v=L0KuAx1COEk
+
+Show HN: Serveo–Expose local servers using only SSH
+https://serveo.net
+
+18yo arrested for reporting a bug in the new Budapest e-Ticket system
+https://blog.marai.me/2017/07/24/18-year-old-arrested-bkk-tsystems-e-ticket/
+
+Bankers Ditch Fat Salaries to Chase Digital Currency Riches
+https://www.bloomberg.com/news/articles/2017-07-25/bankers-ditch-fat-salaries-to-chase-digital-currency-riches
+
+Building an AR Game with ARKit and Spritekit
+https://blog.pusher.com/building-ar-game-arkit-spritekit/
+
+The Evolution of Trust
+http://ncase.me/trust/
+
+Buying time promotes happiness
+http://pnas.org/content/early/2017/07/18/1706541114.full
+
+Microsoft Paint to be killed off after 32 years
+https://www.theguardian.com/technology/2017/jul/24/microsoft-paint-kill-off-after-32-years-graphics-editing-program
+
+Why Do the Titles of Scholarly Works Sometimes Begin with the Word 'On'?
+https://english.stackexchange.com/questions/402576/why-do-the-titles-of-scholarly-works-sometimes-begin-with-the-word-on
+
+Ask HN: What are some indicators that a company will have an IPO or exit?
+item?id=14848919
+
+German energy company wants to build flow batteries in old natural gas caverns
+https://arstechnica.com/business/2017/07/german-energy-company-wants-to-build-flow-batteries-in-old-natural-gas-caverns/
+
+TLS 1.3 in enterprise networks
+https://www.cs.uic.edu/~s/musings/tls13-enterprises/
+
+Petoskey stone
+https://en.wikipedia.org/wiki/Petoskey_stone
+
+Ask HN: In what creative ways are you using Makefiles?
+item?id=14836340
+
+“173 ideas” – WeTransfer CEO Offers $10,000 to every ex-SoundCloud employee
+https://medium.com/@djbradfield/173-ideas-302b7acaa43e
+
+The Rise and Fall of the property-owning democracy
+https://flipchartfairytales.wordpress.com/2017/07/25/the-rise-and-fall-of-the-property-owning-democracy/
+
+Myths and Facts about Team Hiring
+https://medium.com/@awkLindyTurtle/myths-facts-about-team-hiring-8ead86d5775
+
+Thanks to Venmo, We Now All Know How Cheap Our Friends Are
+https://www.nytimes.com/2017/07/21/style/venmo-cheap-friends-transaction-history.html
+
+N-dimensional complex numbers
+http://www.alenspage.net/ComplexNumbers.htm
+
+Russian held over Bitcoin laundering linked to BTC-e exchange
+http://www.reuters.com/article/us-greece-russia-arrest-bitcoin-idUSKBN1AB27W?utm_source=Twitter&utm_medium=Social
+
+AMD Stock Price Nears 10 Year High on Ryzen, Epyc Chip Sales – Fortune.com
+http://fortune.com/2017/07/26/amd-stock/?utm_campaign=fortunemagazine&utm_source=twitter.com&utm_medium=social&xid=soc_socialflow_twitter_FORTUNE
+
+Mysterious Mac Malware Has Infected Victims for Years
+https://motherboard.vice.com/en_us/article/zmv79w/mysterious-mac-malware-has-infected-hundreds-of-victims-for-years
+
+The Fitzgerald's Watch Team Could Have Been Mine
+http://taskandpurpose.com/fitzgeralds-watch-team-mine/
+
+Show HN: DIY Mealbox – Weekly recipes/shopping list without the overpriced food
+https://www.diymealbox.com/
+
+GHC 8.2 Released
+https://ghc.haskell.org/trac/ghc/blog/ghc-8.2.11-released?utm_content=buffer256fb&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+Performance Visualization for Elixir apps
+http://iacobson.net/performance-visualization-in-elixir/
+
+What happened to Magic Leap?
+item?id=14853794
+
+Using mind mapping to clarify your job and bring order to task-switching chaos
+http://www.elezea.com/2017/07/mind-mapping-job-productivity/
+
+Model Based Reasoning – Troubleshooting (1988) [pdf]
+https://dspace.mit.edu/bitstream/handle/1721.1/6491/AIM-1059.pdf?sequence=2
+
+Ask HN: Best-architected open-source business applications worth studying?
+item?id=14836013
+
+Jose Valim: Fallacies of Web Application Performance
+http://blog.plataformatec.com.br/2017/07/the-fallacies-of-web-application-performance/
+
+Show HN: Expreduce 0.2, a free Mathematica-compatible CAS written in Go
+https://github.com/corywalker/expreduce
+
+Snopes is in danger of closing its doors due to a business dispute
+http://www.zdnet.com/article/snopes-in-danger-of-closing-its-doors-due-to-business-dispute/
+
+The Seven or Eight Keplerian Elements
+http://www.amsat.org/amsat-new/tools/keps_detail.php
+
+Fast-key-erasure random-number generators
+http://blog.cr.yp.to/20170723-random.html
+
+Wilbur Wright's Letter to the Smithsonian (1899)
+https://siarchives.si.edu/history/exhibits/stories/letter-dated-may-30-1899
+
+The future of fake news: don't believe everything you read, see or hear
+https://www.theguardian.com/technology/2017/jul/26/fake-news-obama-video-trump-face2face-doctored-content
+
+Snopes.com in ugly legal battle over control of the company
+https://www.theatlantic.com/technology/archive/2017/07/the-ugly-dispute-threatening-snopes/534708/?single_page=true
+
+Announcing Heroku ChatOps for Slack
+https://blog.heroku.com/chatops-ga
+
+Judit Polgár
+https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r
+
+A Practical Guide to Tree-Based Learning Algorithms
+https://sadanand-singh.github.io/posts/treebasedmodels/#.WXT8Kli2pUw.hackernews
+
+CMU pronouncing dictionary
+http://www.speech.cs.cmu.edu/cgi-bin/cmudict
+
+Show HN: JavaScript image compressor
+https://github.com/xkeshi/image-compressor
+
+Ask HN: How would you invest $500k in real estate today?
+item?id=14859346
+
+MS Paint is here to stay
+https://blogs.windows.com/windowsexperience/2017/07/24/ms-paint-stay/
+
+In DevOps, Dev Is Killing Ops
+https://www.linkedin.com/pulse/devops-dev-killing-ops-arvind-soni?trk=v-feed&lipi=urn%3Ali%3Apage%3Ap_flagship3_detail_base%3BgiYMQRJp0NEXKMgmNCbTIg%3D%3D
+
+Agents that imagine and plan
+https://deepmind.com/blog/agents-imagine-and-plan/
+
+Raneto – Markdown Knowledgebase Platform
+http://raneto.com/
+
+Building lattice reduction (LLL) intuition
+https://kel.bz/post/lll/
+
+Voice Synthesis for in-the-Wild Speakers via a Phonological Loop
+https://ytaigman.github.io/loop/
+
+Show HN: Asio, a tool that generates police body cam footage requests
+http://asio.ooo
+
+Girl Scouts Embraces STEM and Adds New Badges
+http://www.girlscouts.org/en/about-girl-scouts/girl-scouts-and-stem.html
+
+Jane Austen, on the money
+https://www.the-tls.co.uk/articles/public/on-the-money-jane-austen/
+
+Esperanto as an Asian language
+http://blogs.bl.uk/european/2017/07/esperanto-as-an-asian-language.html
+
+How Kids See the World Depends a Lot on Genetics
+https://directorsblog.nih.gov/2017/07/25/how-kids-see-the-world-depends-a-lot-on-genetics/
+
+OpenEMS: a free and open electromagnetic field solver
+http://openems.de/start/index.php
+
+A Docker Abstraction That Handles Container Security
+https://docs.nanobox.io/security/
+
+Rehab camp aims to put young cyber-crooks on right track
+http://www.bbc.co.uk/news/technology-40629887
+
+Crack WPA/WPA2 Wi-Fi Routers with Aircrack-Ng and Hashcat
+https://github.com/brannondorsey/wifi-cracking
+
+Lawsuit: Sexual harassment ‘victim’ was San Francisco business rival in disguise
+http://www.mercurynews.com/2017/07/25/lawsuit-sexual-harassment-victim-was-biz-rival-disguise/
+
+Host your own contacts and calendars and share them across devices
+https://partofthething.com/thoughts/host-your-own-contacts-and-calendars-and-share-them-across-devices/
+
+One Month Without AMP
+https://www.alexkras.com/one-month-without-amp/
+
+Penetration testers guide to PostgreSQL
+https://medium.com/@cryptocracker99/a-penetration-testers-guide-to-postgresql-d78954921ee9
+
+Deauthentication attack and other ‘wifi hacks’ using an ESP8266 module
+https://medium.com/@tomac/deauthentication-attack-and-other-wifi-hacks-using-an-esp8266-module-14f9142b063d
+
+Bill Gates' bread lab visit
+https://www.gatesnotes.com/Development/Bread-Lab
+
+Visualizing Large Datasets on the GPU with Vega and MapD
+https://www.mapd.com/blog/2017/07/22/vega-makes-visualizing-big-data-easy/
+
+Ask HN: How to manage bookmarks?
+item?id=14859445
+
+I’m so tired and I’m not even a woman
+https://medium.com/william-stubbs-re/im-so-tired-and-i-m-not-even-a-woman-b3faddd19651
+
+In November 1950, the USAF began development of a balloon reconnaissance system
+http://www.designation-systems.net/dusrm/app4/ws-119l.html
+
+Shining Light on National Security Letters
+https://transparency.automattic.com/2017/07/25/shining-light-on-national-security-letters/
+
+Ask HN: Software licensing excluding military use?
+item?id=14864197
+
+FreeBSD 11.1 released
+https://www.freebsd.org/releases/11.1R/announce.html
+
+Deep Learning in Robotics: A Review of Recent Research
+https://arxiv.org/abs/1707.07217
+
+What's the best blockchain-based mining software / system for normal people?
+item?id=14861705
+
+Soft U2F: A software-based U2F authenticator for macOS
+https://githubengineering.com/soft-u2f/
+
+Stylo shipping in Firefox Nightly
+https://www.reddit.com/r/firefox/comments/6p9t83/psa_you_can_try_out_stylo_in_firefox_nightly_now/
+
+A Guide to Synthesizing Adversarial Examples
+http://www.anishathalye.com/2017/07/25/synthesizing-adversarial-examples/
+
+Schleuder: A GPG-enabled mailinglist with remailing-capabilities
+https://schleuder.nadir.org/
+
+Show HN: Ditto, chat anonymously with strangers in Messenger
+https://sudo.glitch.me/ditto
+
+The “Million Dollar Homepage” as a Decaying Digital Artifact
+https://lil.law.harvard.edu/blog/2017/07/21/a-million-squandered-the-million-dollar-homepage-as-a-decaying-digital-artifact/
+
+Show HN: SpeakingJpg – Hide encrypted text messages inside jpeg images
+https://github.com/WolframHempel/speaking-jpg
+
+Trust Issues: Exploiting TrustZone TEEs
+https://googleprojectzero.blogspot.com/2017/07/trust-issues-exploiting-trustzone-tees.html
+
+Crossing the U.S. Border? Here’s How to Securely Wipe Your Computer
+https://www.eff.org/deeplinks/2017/07/crossing-us-border-heres-how-securely-wipe-your-computer
+
+OpenMoko: 10 Years After
+http://www.vanille.de/openmoko-10-years-after-mickeys-story/
+
+I've held 1,000 interviews, and I've found only 4 questions truly matter
+http://www.businessinsider.com/ive-held-1000-interviews-and-there-are-only-4-questions-that-matter-2017-7?IR=T
+
+Elixir 1.5 released
+https://github.com/elixir-lang/elixir/releases/tag/v1.5.0
+
+Deep Learning for NLP Best Practices
+http://ruder.io/deep-learning-nlp-best-practices/
+
+Enable MP3 support for Commons uploads and TMH/etc. playback
+https://phabricator.wikimedia.org/T120288
+
+Social Media Is the New Smoking
+https://theroamingmind.com/2017/03/06/social-media-is-the-new-smoking/
+
+Show HN: Online family tree maker built with React
+http://plantafamilytree.com/
+
+The Evolution of Trust
+http://ncase.me/trust/
+
+Metropolitan Museum of Art open access initiative update
+https://blog.wikimedia.org/2017/07/25/met-open-access-initiative/
+
+Why has regional income convergence in the U.S. declined? Housing costs
+http://marginalrevolution.com/marginalrevolution/2017/07/regional-income-convergence-u-s-declined.html
+
+Launch HN: Piggy (YC S17) – Investment App for India
+item?id=14857978
+
+Making it easier to grow communities on GitHub
+https://github.com/blog/2397-making-it-easier-to-grow-communities-on-github
+
+Status update from the Reproducible Builds project
+https://lists.debian.org/debian-devel-announce/2017/07/msg00004.html
+
+Payable is joining Stripe
+https://stripe.com/blog/payable-is-joining-stripe
+
+Emily Weiss on the Insights That Grew Glossier – With Amy Buechler at FFC
+https://blog.ycombinator.com/emily-weiss-on-the-insights-that-grew-glossier-with-amy-buechler-at-the-female-founders-conference/
+
+Ask HN: Share Your Raspberry Pi Project
+item?id=14856277
+
+Ruby on Rails is out: major coding bootcamp ditches it, due to waning interest
+https://thenextweb.com/dd/2017/07/26/ruby-rails-major-coding-bootcamp-ditches-due-waning-interest/#.tnw_eFHcmiDL
+
+Azure Container Instances
+https://azure.microsoft.com/en-us/blog/announcing-azure-container-instances/
+
+Rapid DHCP: Or, how do Macs get on the network so fast?	(2011)
+https://cafbit.com/post/rapid_dhcp_or_how_do/
+
+Foxconn to Build $10B Factory in U.S
+https://www.wsj.com/articles/apple-supplier-foxconn-to-build-10-billion-factory-in-u-s-1501102903
+
+Quickly review changed methods and functions in your pull requests
+https://github.com/blog/2407-quickly-review-changed-methods-and-functions-in-your-pull-requests
+
+This Is How Chinese Models Get Photo Shoots Done Fast
+https://petapixel.com/2017/07/22/chinese-models-get-photo-shoots-done-fast/
+
+Priceline now worth $100B
+https://www.google.com/finance?q=NASDAQ:PCLN
+
+YouTube Red and Google Play Music to Merge
+https://www.theverge.com/2017/7/26/16048084/youtube-red-google-play-music-merging?utm_campaign=micahsingleton&utm_content=chorus&utm_medium=social&utm_source=twitter
+
+Offline GraphQL Queries with Redux Offline and Apollo
+http://www.east5th.co/blog/2017/07/24/offline-graphql-queries-with-redux-offline-and-apollo/
+
+IPv6 Adoption
+https://www.google.com/intl/en/ipv6/statistics.html#20
+
+How to create a private Ethereum network
+https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/
+
+Rule that patients must finish antibiotics course is wrong, study says
+https://www.theguardian.com/society/2017/jul/26/rule-patients-must-finish-antibiotics-course-wrong-study-says
+
+“We will stop updating and distributing the Flash Player at the end of 2020”
+https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html
+
+Ask HN: Best provider for sending transactional emails?
+item?id=14862959
+
+Show HN: Kea – The power of Redux with the simplicity of MobX
+https://kea.js.org
+
+Why Midwesterners leave Silicon Valley and go home for better opportunities
+https://venturebeat.com/2017/07/25/why-midwesterners-leave-silicon-valley-and-go-home-for-better-opportunities/
+
+Convoy raises $62M from Bill Gates and other luminaries to transform trucking
+https://www.geekwire.com/2017/convoy-raises-62m-bill-gates-luminaries-transform-trucking-industry-technology/
+
+Britain Pledges to Ban New Diesel and Gas Cars by 2040
+https://www.nytimes.com/2017/07/26/world/europe/uk-diesel-petrol-emissions.html
+
+Google Has Dropped Google Instant Search
+http://searchengineland.com/google-dropped-google-instant-search-279674
+
+Psychology of Intelligence Analysis
+https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/
+
+Betty Shannon, Unsung Mathematical Genius
+https://blogs.scientificamerican.com/observations/betty-shannon-unsung-mathematical-genius/
+
+React 16 beta
+https://github.com/facebook/react/issues/10294
+
+Snowman: native code to C/C++ decompiler
+https://derevenets.com/
+
+Pseudo-public space in London
+https://www.theguardian.com/cities/2017/jul/24/revealed-pseudo-public-space-pops-london-investigation-map
+
+Sometimes Not Working Is Work, Too
+http://nymag.com/scienceofus/article/sometimes-not-working-is-work-too.html
+
+Microsoft Joins the Cloud Native Compute Foundation (CNCF)
+https://azure.microsoft.com/en-us/blog/announcing-cncf/
+
+A list of public JSON APIs for use in web development
+https://github.com/toddmotto/public-apis
+
+Show HN: AI Grant – Non-profit, distributed AI research lab
+item?id=14851806
+
+Inside Trump’s snap decision to ban transgender troops
+http://www.politico.com/story/2017/07/26/trump-transgender-military-ban-behind-the-scenes-240990
+
+Lessons Learned from Benchmarking Fast Machine Learning Algorithms
+https://blogs.technet.microsoft.com/machinelearning/2017/07/25/lessons-learned-benchmarking-fast-machine-learning-algorithms/
+
+Densely Connected Convolutional Networks: CVPR 2017 Best Paper Award Winner
+https://arxiv.org/abs/1608.06993
+
+Ice cycles: the northerly world cities leading the winter bicycle revolution
+https://www.theguardian.com/cities/2016/feb/12/ice-cycles-northerly-world-cities-winter-bicycle-revolution
+
+Here be dragons: the same 3D scene implemented with 10 different 3D APIs
+https://github.com/kosua20/herebedragons
+
+Walmart confirms it’s canceling every single SNES Classic preorder
+https://www.theverge.com/2017/7/26/16040506/walmart-nintendo-snes-classic-mini-console-preorder-cancellations
+
+How Fear and Outrage Are Sold for Profit
+https://medium.com/the-mission/the-enemy-in-our-feeds-e86511488de
+
+Show HN: Lightweight format for small configuration files. (C)
+https://github.com/bindh3x/off
+
+Firefox Roadmap for Flash End-Of-Life
+https://blog.mozilla.org/futurereleases/2017/07/25/firefox-roadmap-flash-end-life/
+
+The quitting economy
+https://aeon.co/essays/how-work-changed-to-make-us-all-passionate-quitters
+
+The Algorithm That Makes Preschoolers Obsessed with YouTube
+https://www.theatlantic.com/technology/archive/2017/07/what-youtube-reveals-about-the-toddler-mind/534765/?utm_source=nextdraft&utm_medium=email&amp;single_page=true
+
+The Acceleration of Addictiveness (2010)
+http://www.paulgraham.com/addiction.html
+
+Kite Responds to the Minimap and Autocomplete Issues
+https://kite.com/blog/responding-to-minimap-autocomplete-issues
+
+Show HN: A simple front end for localStorage objects
+https://madprops.github.io/storageUI/
+
+Show HN: Dharma – Programmable Peer-To-Peer Loans Using Ethereum Smart Contracts
+item?id=14850259
+
+Ask HN: How is your standing desk working for you?
+item?id=14855473
+
+How to Make a Wireless Sensor Live for a Year on One Tiny Coin Cell Battery
+http://www.thingsquare.com/blog/articles/sensortag-power/
+
+Show HN: Juggernaut – Experimental Neural Network in Rust
+http://juggernaut.rs/
+
+SQL on Ethereum Blockchain with Presto
+https://github.com/xiaoyao1991/presto-ethereum
+
+Fastnetmon DDoS analyzer now available as an official Debian package
+https://packages.debian.org/sid/fastnetmon
+
+Show HN: HearInsights – Automatic Notetaker
+http://www.hearinsights.com/
+
+The End of Arduino 101: Intel Leaves Maker Market
+http://hackaday.com/2017/07/25/the-end-of-arduino-101-intel-leaves-maker-market/
+
+Linux Graphics Demystified (2014) [pdf]
+https://keyj.emphy.de/files/linuxgraphics_en.pdf
+
+Show HN: Coisas, an open-source client-side CMS for static site generators
+https://github.com/fiatjaf/coisas
+
+Ask HN: Does CalDAV as a service exist?
+item?id=14862654
+
+U.S. Defense Budget May Help Fund “Hacking for Defense” Classes at Universities
+http://spectrum.ieee.org/view-from-the-valley/at-work/education/us-defense-budget-may-help-fund-university-hacking-for-defense-classes
+
+Ask HN: What problems do you face when managing a rental property remotely?
+item?id=14858842
+
+Google's researchers: 95% traced ransoms were cashed out via BTC-E
+https://twitter.com/mikko/status/890369297863909378
+
+Pev: Postgres ‘Explain’ Visualizer (2016)
+http://tatiyants.com/postgres-query-plan-visualization/
+
+Officials arrest suspect in $4 billion Bitcoin money laundering scheme
+https://arstechnica.com/tech-policy/2017/07/officials-arrest-suspect-in-4-billion-bitcoin-money-laundering-scheme/
+
