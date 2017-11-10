@@ -15,6 +15,8 @@ let i = 1;
 for(i=1; i<13; i++)
 {
     const URL = "https://www.flipkart.com/search?page="+i+"&q="+item;
+    //const URL1 = "http://www.shopclues.com/search?q="+item;
+
     /*let complete_data = {};
     let extract_data;
     let URL_Item;
@@ -28,7 +30,7 @@ for(i=1; i<13; i++)
         "price" : price,
         "rating": rating
     };*/
-    request(URL,function (error,response,body) {
+    request(URL1,function (error,response,body) {
         /*var URI = "https://news.ycombinator.com/news?p="+i;
         console.log(URI);
         console.log(i);*/
@@ -60,7 +62,7 @@ for(i=1; i<13; i++)
          //console.log(complete_data.extract_data.text);
          complete_data.URL_Item = "https://www.flipkart.com"+$(this).find('a._1UoZlX').attr('href');
 
-         //complete_data.final_url = "https://www.flipkart.com"+complete_data.URL_Item.text();
+         complete_data.final_url = "https://www.flipkart.com"+complete_data.URL_Item.text();
          complete_data.price = $(this).find('div._1-2Iqu>div._2o7WAb > div._6BWGkk >div._1uv9Cb> div._2rQ-NK').text();
          complete_data.rating = $(this).find('div._1-2Iqu> div.col-7-12>div.niH0FQ>span._2_KrJI>div.hGSR34').text();
            // console.log(data);
@@ -73,11 +75,11 @@ for(i=1; i<13; i++)
             fs.appendFileSync('output/flipkart_.json',"\"Item"+A+"\""+":"+JSON.stringify(complete_data)+','+'\n\n');
             //console.log(index)
         })
-    })
+    })}
 
    /* const extract_ = {
         "data" = extr*/
-}
+
 
 
 
