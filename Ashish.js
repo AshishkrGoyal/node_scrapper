@@ -60,8 +60,8 @@ if (system.args.length === 1) {
 casper.run();*/
 
 var page = require('webpage').create();
-page.viewportSize = { width: 500, height: 768 };
-page.open('http://resonance.ac.in', function(status) {
+page.viewportSize = { width: 1024, height: 768 };
+page.open('http://jiit.ac.in', function(status) {
     console.log("Status: " + status);
     if(status === "success") {
         page.render('./example.png');
