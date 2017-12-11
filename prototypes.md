@@ -1,8 +1,7 @@
 # Prototypes in JavaScript
 
 ### Problems with the constructor function
-
->In the previou [post](https://github.com/rupeshmi/CodeSprint/edit/dev/JavaScript/Part1/Object.md) 
+ 
 >,we discuss about various ways of creating objects in JavaScript.
 >One of the ways to create objects in JavaScript is using the **Constructor** function.
 >Consider the construction function below:
