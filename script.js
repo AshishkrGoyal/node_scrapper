@@ -30,7 +30,7 @@ for(i=1; i<13; i++)
         "price" : price,
         "rating": rating
     };*/
-    request(URL1,function (error,response,body) {
+    request(URL,function (error,response,body) {
         /*var URI = "https://news.ycombinator.com/news?p="+i;
         console.log(URI);
         console.log(i);*/
