@@ -31,7 +31,7 @@ let i = 1;
         "price" : price,
         "rating": rating
     };*/
-    request(URL1,function (error,response,body) {
+    request(URL,function (error,response,body) {
         /*var URI = "https://news.ycombinator.com/news?p="+i;
         console.log(URI);
         console.log(i);*/
