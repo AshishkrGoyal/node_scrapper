@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toolkit For Facebook</title>
+    <link rel="stylesheet" type="text/css" href="/css_vendor/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css_vendor/toastr.css">
+    <link rel="stylesheet" type="text/css" href="/css/popup.css">
+
+    <script type="text/javascript" src="/js_vendor/jquery.js"></script>
+    <script type="text/javascript" src="/js_vendor/bootstrap.js"></script>
+    <script type="text/javascript" src="/js_vendor/toastr.js"></script>
+    <script type="text/javascript" src="/js_vendor/toastr_opts.js"></script>
+    <script defer type="text/javascript" src="/dart/popup.dart.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#" id="ext_name">Toolkit For Facebook by PlugEx</a>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<ul class="nav nav-tabs">
+    <li class="dropdown active">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+            <span class="glyphicon glyphicon-th-large"></span>
+            Tools
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li class="active">
+                <!-- data-to-show attr is used by popup script-->
+                <!-- nav-toggle class used by hyperlinks that have valid targets to show -->
+                <a class="nav-toggle" data-to-show="#tools-full-view" href="#tools-full-view" data-toggle="tab" aria-expanded="false">Full View</a>
+            </li>
+            <li class="divider"></li>
+            <li >
+                <a class="nav-toggle" data-to-show="#tools-compac-view" href="#tools-compac-view" data-toggle="tab" aria-expanded="false">Compact View</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="nav-toggle" data-to-show="#background_tools" href="#background_tools" data-toggle="tab" aria-expanded="true">
+            <span class="glyphicon glyphicon-th-large"></span>
+            Background Tools
+        </a>
+    </li>
+
+    <li>
+        <a class="nav-toggle" data-to-show="#quick_links" href="#quick_links" data-toggle="tab" aria-expanded="false">
+            <span class="glyphicon glyphicon-th-large"></span>
+            Quick Links
+        </a>
+    </li>
+
+    <li>
+        <a class="nav-toggle" data-to-show="#similar" href="#similar" data-toggle="tab" aria-expanded="false">
+            <span class="glyphicon glyphicon-th-large"></span>
+            Similar
+        </a>
+    </li>
+
+    <li class="">
+        <a class="nav-toggle" data-to-show="#emoji_old_pane" href="#emoji_old_pane" data-toggle="tab" aria-expanded="false">
+            <span class="glyphicon glyphicon-th-large"></span>
+            Emojis
+        </a>
+    </li>
+
+    <!-- use nav-toggle only on hyperlinks that have valid targes -->
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+            <span class="glyphicon glyphicon-th-large"></span>
+            Other
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <!--
+            <li>
+                <a class="nav-toggle" data-to-show="#about" href="#about" data-toggle="tab" aria-expanded="false">About</a>
+            </li>
+            <li class="divider"></li>
+            -->
+            <li>
+                <a class="nav-toggle" data-to-show="#legal" href="#legal" data-toggle="tab" aria-expanded="false">Legal</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+
+<div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade active in" id="tools-full-view">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Send Sticker To Multiple Friends At Once</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to send sticker to multiple facebook friends at once.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="send_sticker_to_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Send stickers to your friends.
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Suggest your friend to add another friend</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to suggest your friends to add another friend.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="suggest_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Suggest your friend to add another friend
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Send Messages To Multiple Facebook Friends At Once</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you to send messages to multiple facebook friends at once.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="send_msg_to_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Send messages to your friends.
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Download Facebook Videos</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    Download video file from Facebook using video URL.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="download_fb_videos">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Download facebook videos
+                </button>
+            </div>
+        </div>
+        <!-- finding fb ID and username -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Find Facebook ID and Username</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    Find ID and username of Facebook accounts, groups, pages, profiles, events by using their URL.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="find-fb-id-username">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Find Facebook ID and username
+                </button>
+            </div>
+        </div>
+        <!-- finding fb ID and username -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Click all visible like buttons</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you to click on like buttons that are currently visible on your screen.
+                </p>
+                <button type="button" class="btn btn-primary frameButtons" data-start="click_all_like_btn">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Click all visible like buttons.
+                </button>
+            </div>
+        </div>
+        <!-- finding fb ID and username -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Click all add friend buttons</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you to click on all add friend buttons that are currently visible on your screen.
+                </p>
+                <button type="button" class="btn btn-primary frameButtons" data-start="click_all_a_f_btn">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Click all add friend buttons.
+                </button>
+            </div>
+        </div>
+        <!-- frame tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Click all poke and poke back buttons
+                </h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you to click all poke and poke back buttons.
+                </p>
+                <!-- enter valid path names, don't include trailing slashes -->
+                <button type="button" class="btn btn-primary frameButtonsNewPath" data-start="click_poke" data-path="/pokes">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Click all poke and poke back buttons
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Post on multiple groups
+                </h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you write a new post on multiple facebook groups.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="post_groups">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Post on multiple groups
+                </button>
+            </div>
+        </div>
+        <!-- finding fb ID and username -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Accept or reject all friend requests at once</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you to accept or reject all friend requests at once.
+                    <br>
+                    Make sure that your language is set to English to find correct buttons to click.
+                </p>
+                <!-- enter valid path names, don't include trailing slashes -->
+                <button type="button" class="btn btn-primary frameButtonsNewPath" data-start="accept_reject_f_requests" data-path="/friends/requests">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Accept or reject all friend requests
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Get public phone numbers of your facebook friends
+                </h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you to create a list of public phone numbers of your facebook friends and export them to a JSON file.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="get_public_nums">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Get public phone numbers of your friends
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Unfollow multiple facebook pages</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to unfollow multiple facebook pages at once.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="unfollow_pages">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Unfollow multiple facebook pages
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Unfollow multiple facebook groups</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to unfollow multiple facebook groups at once.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="unfollow_g">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Unfollow multiple facebook groups
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Unfollow multiple facebook friends</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to unfollow multiple facebook friends at once.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="unfollow_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Unfollow multiple facebook friends
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Unlike multiple facebook pages</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to unlike multiple facebook pages at once.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="unlike_pages">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Unlike multiple facebook pages
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Leave multiple facebook groups</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to leave multiple facebook groups at once.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="leave_groups">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Leave multiple facebook groups
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Unfriend multiple facebook friends</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to remove unknown or inactive friends from your Facebook account.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="unfriend_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Unfriend multiple facebook friends
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Backup Facebook friend list</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you to create a complete backup of your facebook friend list.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="backup_f_list">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Backup Facebook Friend List
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Backup joined group list</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool allows you to create a complete backup of your facebook friend list.
+                    <br>
+                    You can use this list to restore your joined group list when you account gets deactivated.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="backup_g_list">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Backup joined group list
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Backup liked page list</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This tool will allow you to create a complete backup of pages that you have liked.
+                </p>
+                <button type="button" class="btn btn-primary toolButtons" data-start="backup_p_list">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Start Tool : Backup liked page list
+                </button>
+            </div>
+        </div>
+        <!-- tool -->
+    </div>
+
+    <div class="tab-pane fade" id="tools-compac-view">
+        <!-- tools in compact view -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Account Tools
+                </h3>
+            </div>
+            <div class="panel-body">
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="send_sticker_to_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Send stickers to your friends.
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="suggest_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Suggest your friend to add another friend
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="send_msg_to_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Send messages to your friends.
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="get_public_nums">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Get public phone numbers of your friends
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="post_groups">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Post on multiple groups
+                </button>
+            </div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Removal Tools
+                </h3>
+            </div>
+            <div class="panel-body">
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="unlike_pages">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Unlike multiple facebook pages
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="leave_groups">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Leave multiple facebook groups
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="unfriend_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Unfriend multiple facebook friends
+                </button>
+            </div>
+        </div>
+
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Unfollow tools
+                </h3>
+            </div>
+            <div class="panel-body">
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="unfollow_pages">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Unfollow multiple facebook pages
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="unfollow_g">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Unfollow multiple facebook groups
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="unfollow_f">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Unfollow multiple facebook friends
+                </button>
+            </div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Utilities
+                </h3>
+            </div>
+            <div class="panel-body">
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="download_fb_videos">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Download facebook videos
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="find-fb-id-username">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Find Facebook ID and username
+                </button>
+            </div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Frame Tools
+                </h3>
+            </div>
+            <div class="panel-body">
+                <button type="button" class="btn btn-primary frameButtons btn-margins" data-start="click_all_like_btn">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Click all visible like buttons.
+                </button>
+                <button type="button" class="btn btn-primary frameButtons btn-margins" data-start="click_all_a_f_btn">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Click all add friend buttons.
+                </button>
+                <!-- enter valid path names, don't include trailing slashes -->
+                <button type="button" class="btn btn-primary frameButtonsNewPath btn-margins" data-start="click_poke" data-path="/pokes">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Click all poke and poke back buttons
+                </button>
+                <!-- enter valid path names, don't include trailing slashes -->
+                <button type="button" class="btn btn-primary frameButtonsNewPath btn-margins" data-start="accept_reject_f_requests" data-path="/friends/requests">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Accept or reject all friend requests
+                </button>
+            </div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Backup Tools
+                </h3>
+            </div>
+            <div class="panel-body">
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="backup_f_list">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Backup Facebook Friend List
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="backup_g_list">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Backup joined group list
+                </button>
+                <button type="button" class="btn btn-primary toolButtons btn-margins" data-start="backup_p_list">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Backup liked page list
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Pane -->
+    <div class="tab-pane fade" id="background_tools">
+        <!-- Hide seen tool -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Hide "Seen" tick for Facebook messages</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    Enabling this tool will hide "Seen" tick for messages sent using Facebook desktop site allowing you to read messages on Facebook's desktop site without letting the recipient know what you have read it.
+                    <br>
+                    After enabling this tool a script will be executed in background that will block certain request sent to Facebook servers that are used for indicating a message is read or unread.
+                    <br>
+                    After enabling this tool you will not be able mark a message as read or unread as long as the tool is enabled.
+                </p>
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Enable / Disable Hide Seen</div>
+                    <!-- List group -->
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Enable hide seen for Facebook desktop site.
+                            <div class="material-switch float-right">
+                                <input id="hideSeen"
+                                       name="someSwitchOption001" type="checkbox"/>
+                                <label for="hideSeen"
+                                       class="label-success"></label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pane -->
+    <div class="tab-pane fade" id="emoji_old_pane">
+        <iframe class="popupFrame" src="/html/emoji_old.html" frameborder="0"></iframe>
+    </div>
+    <!-- Pane -->
+    <div class="tab-pane fade" id="quick_links">
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">View and send messages.</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    Use links given below to navigate around Facebook and its related sites.
+                </p>
+                <a target="_blank" class="btn btn-primary quick_links" href="
+                https://www.facebook.com/me">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Open Link : Your Facebook Profile
+                </a>
+                <a target="_blank" class="btn btn-primary quick_links" href="
+                https://www.facebook.com/settings?tab=security&section=sessions&view">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Open Link : Log out of all devices and sessions
+                </a>
+                <a target="_blank" class="btn btn-primary quick_links" href="
+            https://www.facebook.com/messages/">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Open Link : Messages
+                </a>
+                <a target="_blank" class="btn btn-primary quick_links" href="https://www.messenger.com/t/100012467311246">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Open Link : Messenger.com
+                </a>
+                <a target="_blank" class="btn btn-primary quick_links" href="
+                https://www.facebook.com/notifications">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Open Link : Notifications
+                </a>
+                <a target="_blank" class="btn btn-primary quick_links" href="
+                https://www.facebook.com/friends/requests/?fcref=jwl">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Open Link : Friend Requests
+                </a>
+                <a target="_blank" class="btn btn-primary quick_links" href="https://www.facebook.com/friends/requests/?fcref=none&outgoing=1">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Open Link : View pending friend requests
+                </a>
+                <a target="_blank" class="btn btn-primary quick_links" href="https://www.facebook.com/settings?tab=account">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    Open Link : Settings
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Pane  -->
+    <div class="tab-pane fade" id="similar">
+        <!-- crx 1 -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Account Manager Chrome Extension.</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    This chrome extension will allow you to manage and switch between multiple accounts on multiple websites. More than 10K+ users are using Account Manager chrome extension.
+                </p>
+                <a target="_blank" class="btn btn-success quick_links" href="https://chrome.google.com/webstore/detail/cahmhpmgmcgbhafeickhklifhoonfala">
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                    View : Account Manager Chrome Extension
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="about">
+        <p>
+            Developed by PlugEx Software Private Limited.
+        </p>
+    </div>
+    <!-- Pane  -->
+    <div class="tab-pane fade" id="legal">
+        <p>
+            Copyrighted to PlugEx Software Private Limited.
+            <br>
+            Modification to source code is not permitted without prior written permission.
+            <br>
+            Distribution of modified software is not permitted without prior written permission.
+        </p>
+    </div>
+</div>
+</body>
+</html>

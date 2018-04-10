@@ -1,0 +1,121 @@
+html{
+    width:800px;
+}
+
+/* scrollbar improvements */
+::-webkit-scrollbar {
+    width:8px;
+    height:8px;
+}
+
+::-webkit-scrollbar-track {
+    /*
+    no shadow
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+    */
+    background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(78, 78, 78, 0.91);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(78, 78, 78, 0.80);
+}
+
+
+.navbar{
+    margin-bottom: 5px;
+    border-radius: 0px;
+}
+
+#myTabContent{
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 415px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/*
+.toolButtons {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+*/
+.quick_links{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+/*
+adding margins on buttons in compact view
+ */
+.btn-margins{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.panel{
+    padding-bottom: 5px;
+}
+.popupFrame {
+    border: none;
+    width: 100%;
+    height: 610px;
+}
+/*
+for material switch
+*/
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+/*
+No margin for child panel elements
+ */
+.panel > .panel{
+    margin-bottom: 0px!important;
+}

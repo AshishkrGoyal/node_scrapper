@@ -1,0 +1,42 @@
+body {
+    /*
+        transparent body background
+    */
+    background: #fff0;
+}
+/*
+navbar box shadow
+
+ */
+.navbar {
+    box-shadow: 0 0px 0px 2px #ddd;
+    margin: 1px 1px 0px 1px;
+}
+/*
+######## Scrollbar improvements start
+ */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    /*
+    no shadow
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+    */
+    background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(78, 78, 78, 0.91);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(78, 78, 78, 0.80);
+}
+
+/*
+######## Scrollbar improvements end
+ */

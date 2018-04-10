@@ -12,9 +12,10 @@ let i = 1;
 //console.log(URI);
 
 
-for(i=1; i<13; i++)
+//for(i=1; i<13; i++)
 {
-    const URL = "https://www.flipkart.com/search?page="+i+"&q="+item;
+    //const URL1 = "https://www.flipkart.com/search?page="+i+"&q="+item;
+    const URL1 = "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vT8lxJxfrzlpr8WJvRYoFm5B7eAHryssyFLzEet3Qx5hvB12zd4febjEr0ZW2tsc9bTTrQf1zMsLhud/pubhtml?gid=1563395941&single=true";
     //const URL1 = "http://www.shopclues.com/search?q="+item;
 
     /*let complete_data = {};
@@ -44,6 +45,7 @@ for(i=1; i<13; i++)
         console.log("Everything Is Working Fine");
     }
     const $ = cheerio.load(body);
+    //console.log(body);
 
     //const extract_data={};
 
@@ -57,14 +59,21 @@ for(i=1; i<13; i++)
     //console.log(data);
     console.log(data.text());*/
         const complete_data = {};
-        $('div._2SxMvQ >div._3T_wwx >div._2-gKeQ').each(function (index) {
-         complete_data.extract_data = $(this).find('div._1-2Iqu> div.col-7-12>div._3wU53n').text();
-         //console.log(complete_data.extract_data.text);
-         complete_data.URL_Item = "https://www.flipkart.com"+$(this).find('a._1UoZlX').attr('href');
 
-         complete_data.final_url = "https://www.flipkart.com"+complete_data.URL_Item.text();
-         complete_data.price = $(this).find('div._1-2Iqu>div._2o7WAb > div._6BWGkk >div._1uv9Cb> div._2rQ-NK').text();
-         complete_data.rating = $(this).find('div._1-2Iqu> div.col-7-12>div.niH0FQ>span._2_KrJI>div.hGSR34').text();
+        //main code goes here
+
+       //$('div._2SxMvQ >div._3T_wwx >div._2-gKeQ').each(function (index) {
+               $('div#sheets-viewport >div#1563395941 >div.ritz > .waffle').each(function (index) {
+        //complete_data.extract_data = $(this).find('div._1-2Iqu> div.col-7-12>div._3wU53n').text();
+                   let extract_data = $(this).find('tr:nth-child(0)').text();
+                    console.log(extract_data+'\n');
+                    console.log("Ashishkr");
+                   //console.log(complete_data.extract_data.text);
+        // complete_data.URL_Item = "https://www.flipkart.com"+$(this).find('a._1UoZlX').attr('href');
+
+         //complete_data.final_url = "https://www.flipkart.com"+complete_data.URL_Item.text();
+         //complete_data.price = $(this).find('div._1-2Iqu>div._2o7WAb > div._6BWGkk >div._1uv9Cb> div._2rQ-NK').text();
+         //complete_data.rating = $(this).find('div._1-2Iqu> div.col-7-12>div.niH0FQ>span._2_KrJI>div.hGSR34').text();
            // console.log(data);
            // console.log(rating.text());
             //console.log(URL_Item);
@@ -72,10 +81,11 @@ for(i=1; i<13; i++)
 
             A = A+1;
             //fs.appendFileSync('output/flipkart_iphone.json',data.text()+', '+'  '+price.text()+', '+rating.text()+'\n'+final_url+'\n\n');
-            fs.appendFileSync('output/flipkart_.json',"\"Item"+A+"\""+":"+JSON.stringify(complete_data)+','+'\n\n');
+            fs.appendFileSync('output/cs_viv.json',"\"Item"+A+"\""+":"+JSON.stringify(complete_data)+','+'\n\n');
             //console.log(index)
         })
-    })}
+    }
+    )}
 
    /* const extract_ = {
         "data" = extr*/

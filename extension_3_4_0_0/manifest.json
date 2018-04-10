@@ -1,0 +1,57 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "background": {
+    "page": "/html/background.html"
+  },
+  "browser_action": {
+    "default_title": "Toolkit For Facebook by PlugEx",
+    "default_icon": "/icons/128.png",
+    "default_popup": "/html/popup.html"
+  },
+  "description": "Toolkit For Facebook is a collection of automation tools for Facebook.com.",
+  "icons": {
+    "16": "/icons/16.png",
+    "32": "/icons/32.png",
+    "48": "/icons/48.png",
+    "128": "/icons/128.png"
+  },
+  "name": "Toolkit For Facebook",
+  "manifest_version": 2,
+  "short_name": "TFF",
+  "minimum_chrome_version": "54.0.2840",
+  "permissions": [
+    "storage",
+    "<all_urls>",
+    "notifications",
+    "tabs",
+    "clipboardWrite"
+  ],
+  "version": "3.4",
+  "author": "PlugEx Software Private Limited",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.facebook.com/*"
+      ],
+      "js": [
+        "/js_content_background/hide_seen.js",
+        "/dart_content_background/start_tool.dart.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    "/css_vendor/*.css",
+    "/css_content/*.css",
+    "/css_content_frame/*.css",
+    "/html_content/*.html",
+    "/html_content_frame/*.html",
+    "/js_vendor/*.js",
+    "/js_content/*.js",
+    "/fonts/*.*",
+    "/images/*.*",
+    "/icons/*.*"
+  ],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}

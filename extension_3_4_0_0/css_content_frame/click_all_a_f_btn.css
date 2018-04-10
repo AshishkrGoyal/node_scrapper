@@ -1,0 +1,12 @@
+#tff_frame {
+    bottom: 10px;
+    left: 10px;
+    position: fixed;
+    z-index: 9999999;
+    width: 450px;
+    height: 300px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    background: #0000;
+}

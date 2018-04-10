@@ -1,0 +1,127 @@
+<div class="container content">
+    <h5>Send Sticker To Your Friends</h5>
+    <p>
+        This tool allows you to send sticker to your facebook friends.
+    </p>
+
+    <div class="card">
+        <div class="card-header text-center">
+            Important information
+        </div>
+        <div class="card-body">
+            Use this tool with caution !!
+            <br> There is a limit to number of requests you can send to Facebook API servers.
+            <br> Don't send stickers to more than 30 friends at a time.
+            <br> Don't flood Facebook servers or your account may get banned or deactivated.
+        </div>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-header">
+            Select sticker that you want to send
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                This tool allows you to send sticker to multiple facebook friends at once.
+            </p>
+            <div class="panel-body" id="sticker_box">
+            </div>
+        </div>
+    </div>
+    <!-- result body starts -->
+    <div class="card">
+        <div class="card-header text-center">
+            Select friends to whom you want to send a sticker.
+        </div>
+        <div class="card-body">
+            <div class="btn-holder">
+                <button class="btn btn-primary" id="select_all_f">
+                    Select All Friends
+                </button>
+                <button class="btn btn-danger" id="unselect_all_f">
+                    Un-Select All Friends
+                </button>
+                <button class="btn btn-secondary" id="refresh_friend_list">
+                    Refresh Friend List
+                </button>
+            </div>
+            <br>
+            <div class="result-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Send sticker?</th>
+                            <th>Name</th>
+                            <th>Profile Photo</th>
+                            <th>View Profile</th>
+                            <th>View Messages</th>
+                        </tr>
+                    </thead>
+                    <tbody id="result-table-tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- result body ends -->
+    <!-- delay time starts -->
+    <div class="card">
+        <div class="card-header text-center">
+            Select time interval between requests
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="delay">Select time interval between requests</label>
+                <select class="form-control" id="delay">
+                    <option value="1">1 Second</option>
+                    <option value="2">2 Seconds</option>
+                    <option value="3" selected="selected">3 Seconds</option>
+                    <option value="4">4 Seconds</option>
+                    <option value="5">5 Seconds</option>
+                    <option value="10">10 Seconds</option>
+                    <option value="15">15 Seconds</option>
+                    <option value="20">20 Seconds</option>
+                    <option value="25">25 Seconds</option>
+                    <option value="30">30 Seconds</option>
+                    <option value="60">1 Minute</option>
+                    <option value="300">5 Minutes</option>
+                    <option value="600">10 Minutes</option>
+                    <option value="1200">20 Minutes</option>
+                    <option value="1800">30 Minutes</option>
+                    <option value="3600">60 Minutes</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <!-- delay time ends -->
+    <div class="btn-holder text-center">
+        <button class="btn btn-success" id="submit">
+            Start Sending Stickers
+        </button>
+    </div>
+    <br>
+    <!-- event log starts -->
+    <div class="card">
+        <div class="card-header text-center">
+            Event Log
+        </div>
+        <div class="card-body">
+            <div class="btn-holder">
+                <button class="btn btn-danger" id="clear_event_log">
+                    Clear Event Log
+                </button>
+            </div>
+            <br>
+            <div class="event-log-scroll">
+                <table class="table">
+                    <tbody class="event-log-body" id="event-log-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- event log ends -->
+</div>
+</div>
+</div>

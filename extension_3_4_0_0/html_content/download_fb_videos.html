@@ -1,0 +1,59 @@
+<div class="container content">
+    <div class="card">
+        <div class="card-header text-center">
+            Download Facebook Videos
+        </div>
+        <div class="card-body">
+            <div class="alert alert-dismissible alert-info">
+                Right click on video frame , after that select "Save Video As" from context menu to save video file.
+            </div>
+            <form class="form-horizontal" id="main-form">
+                <fieldset>
+                    <legend>Download video file from Facebook using video URL.</legend>
+                    <div class="form-group">
+                        <label for="inpURL" class="col-lg-2 control-label">
+                            URL of Facebook post or video shared on Facebook
+                            <br>
+                        </label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inpURL" placeholder="Enter URL of Facebook video.">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-10 col-lg-offset-2">
+                            <button type="submit" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                                Download Facebook Video
+                            </button>
+                            <button type="reset" class="btn btn-danger" id="clear-btn">
+                                <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+                                Clear
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-- event log starts -->
+    <div class="card">
+        <div class="card-header text-center">
+            Event Log
+        </div>
+        <div class="card-body">
+            <div class="btn-holder">
+                <button class="btn btn-danger" id="clear_event_log">
+                    Clear Event Log
+                </button>
+            </div>
+            <br>
+            <div class="event-log-scroll">
+                <table class="table">
+                    <tbody class="event-log-body" id="event-log-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- event log ends -->
+</div>
